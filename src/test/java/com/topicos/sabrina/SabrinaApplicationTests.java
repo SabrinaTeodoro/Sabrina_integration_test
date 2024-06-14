@@ -18,7 +18,6 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class SabrinaApplicationTests {
-	
 	private ObjectMapper mapper = new ObjectMapper();
 	private final String url = "http://localhost:8084/api/customers";
 	
